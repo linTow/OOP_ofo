@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>170</x>
+      <y>100</y>
+      <w>150</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Servers&gt;&gt;
+User-SQL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>210</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>SQL</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>770</x>
+      <y>110</y>
+      <w>160</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>user client
+{OS=Android,Ios}
+C/S
+&lt;&lt;Mobile&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>190</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>LAN</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>180</x>
+      <y>160</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+User
+Balance
+Position
+Deposit
+Coupon
+March
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>780</x>
+      <y>200</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+MVC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>450</x>
+      <y>110</y>
+      <w>130</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Servers&gt;&gt;
+Web Server
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>780</x>
+      <y>390</y>
+      <w>170</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+GPS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>200</y>
+      <w>230</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>LAN</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>160</x>
+      <y>310</y>
+      <w>150</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Servers&gt;&gt;
+Bicycle-SQL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>180</x>
+      <y>370</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Bicycle
+Position
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>220</y>
+      <w>170</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>SQL</panel_attributes>
+    <additional_attributes>10.0;180.0;150.0;10.0</additional_attributes>
+  </element>
+</diagram>
